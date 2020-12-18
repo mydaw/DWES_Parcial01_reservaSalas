@@ -36,6 +36,7 @@
                         if(isset($_COOKIE['login'])) {
                             pintaOpcionesMaterial();
                             pintaBotonAtras();
+                            
                         }else{
                              echo "Su sesión ha expirado";
                             pintaBotonVueltaInicio();
